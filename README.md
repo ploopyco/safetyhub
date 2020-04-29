@@ -10,7 +10,7 @@ Spec-wise:
 
 - 3 downstream USB 2.0 ports, including one port rated for 1.5A charging.
 - Microchip USB2513B hub controller.
-- Upstream USB-C connectors for data (USB 2.0) and power (up to 3A).
+- Separate upstream USB-C connectors for data (USB 2.0) and power (up to 3A).
 - LED indicators to indicate whether a port is active/faulted.
 - No direct connections between upstream and downstream power/data lines.
 - Heavy-duty ESD protection (IEC 61000-4-2 class 4).
