@@ -23,6 +23,10 @@ Spec-wise:
 
 The way it works is simple: there are no direct power/data connections between your computer and downstream devices. Power comes from a sturdy wall-wart, and beefy ESD protection makes sure nothing zappy makes it to your computer. As long as your device is bus-powered (i.e. doesn't have a power supply of its' own), the Safetyhub should protect your computer.
 
+## Schematics
+
+Electrical design files are in Altium-specific formats, but if you just want to look, there's a PDF version here: https://github.com/ploopyco/safetyhub/blob/master/Electrical/HubSchematics.pdf
+
 ## Obligatory Warnings
 
 The Safetyhub is not electrically isolated, and won't protect from high voltages, ground loops and other dangerous situations. If your downstream device has its' own power supply/has high voltages present/presents other electrical hazards, you'll need a real isolation barrier. If you're not sure if this paragraph describes your situation, please consult with someone who can help you avoid electrocution/accidents that give you superpowers.
