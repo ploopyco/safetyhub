@@ -6,6 +6,12 @@ A "simple" way to avoid this problem is to use a "powered" USB hub, which protec
 
 ## The Ploopy Safetyhub was explicitly designed to protect your computer from the antics of your bus-powered devices. No more murdering the USB ports on your shiny computer!
 
+Specifically:
+
+- The 5V line from the upstream data port is not connected to any downstream 5V lines, so a downstream short can't damage your computer.
+- The data lines have good ESD protection on both the upstream and downstream sides, serving as a first (and second) line of defense against ESD strikes.
+- Downstream 5V lines have FET-based (fast, recoverable) over-current protection for downstream shorts. All downstream 5V power comes from a separate USB-C port (which would typically have a robust wall-wart plugged into it).
+
 Spec-wise:
 
 - 3 downstream USB 2.0 ports, including one port rated for 1.5A charging.
